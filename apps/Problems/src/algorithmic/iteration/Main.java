@@ -1,4 +1,4 @@
-package training.language.problems.algorithmics.iteration;
+package algorithmic.iteration;
 
 
 public class Main {

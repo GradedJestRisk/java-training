@@ -1,4 +1,4 @@
-package training.language.problems.oo;
+package object;
 
 public class Square extends Form {
 
