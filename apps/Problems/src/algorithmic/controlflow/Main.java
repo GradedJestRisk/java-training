@@ -1,6 +1,4 @@
-package training.language.problems.algorithmics.controlflow;
-
-import training.language.problems.algorithmics.controlflow.PrintDayInWord;
+package algorithmic.controlflow;
 
 public class Main {
 

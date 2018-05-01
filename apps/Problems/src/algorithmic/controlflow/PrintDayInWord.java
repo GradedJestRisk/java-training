@@ -1,4 +1,4 @@
-package training.language.problems.algorithmics.controlflow;
+package algorithmic.controlflow;
 
 class PrintDayInWord {
 
