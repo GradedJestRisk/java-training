@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef1f9070-f814-477d-b1c1-cf4f1104ec1b" name="Default" comment="Added identity and inheritance">
+    <list default="true" id="ef1f9070-f814-477d-b1c1-cf4f1104ec1b" name="Default" comment=" inheritance refactor, removed square">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pedro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/inheritance/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object/inheritance/ZeroOrNegativeRadiusException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/inheritance/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/inheritance/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/ZeroOrNegativeRadiusException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/training/test/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/object/inheritance/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/training/test/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/object/inheritance/SquareTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +24,16 @@
       <FILTER>object.inheritance.*</FILTER>
     </SUITE>
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/object/inheritance/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="359">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
@@ -50,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Form.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/object/inheritance/Form.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="558">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
               <folding>
                 <element signature="e#314#315#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
@@ -66,8 +59,8 @@
       <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/object/inheritance/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="21" selection-start-line="21" selection-end-line="39" />
+            <state relative-caret-position="187">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
@@ -106,9 +99,9 @@
         <option value="$PROJECT_DIR$/src/object/identity/Book.java" />
         <option value="$PROJECT_DIR$/src/object/inheritance/Square.java" />
         <option value="$PROJECT_DIR$/test/object/inheritance/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/object/inheritance/Form.java" />
-        <option value="$PROJECT_DIR$/src/object/inheritance/Circle.java" />
         <option value="$PROJECT_DIR$/test/object/inheritance/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/object/inheritance/Circle.java" />
+        <option value="$PROJECT_DIR$/src/object/inheritance/Form.java" />
       </list>
     </option>
   </component>
@@ -408,19 +401,17 @@
       <option name="project" value="LOCAL" />
       <updated>1525271705097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" inheritance refactor, removed square">
+      <created>1525276087073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525276087073</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 24m 11s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 30m 53s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 32m 08s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 32m 39s.xml">
       <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
     </history-entry>
@@ -440,6 +431,15 @@
       <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 37m 29s.xml">
+      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 44m 54s.xml">
+      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 44m 59s.xml">
+      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 47m 24s.xml">
       <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -462,6 +462,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24984501" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -473,7 +474,6 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -483,7 +483,8 @@
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="Added identity and inheritance" />
     <MESSAGE value="Added identity : code clean-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added identity : code clean-up" />
+    <MESSAGE value=" inheritance refactor, removed square" />
+    <option name="LAST_COMMIT_MESSAGE" value=" inheritance refactor, removed square" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -733,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -757,21 +751,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Form.java">
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="252">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/inheritance/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/object/inheritance/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="21" selection-start-line="21" selection-end-line="39" />
+        <state relative-caret-position="187">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
@@ -779,14 +781,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/object/inheritance/CircleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Form.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="558">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
