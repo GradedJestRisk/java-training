@@ -3,7 +3,9 @@ package object.inheritance;
 final class Circle extends Form {
 
   private static double DEFAULT_RADIUS = 1;
+
   static int DEFAULT_CONSTRUCTOR_X = 9;
+  private static int DEFAULT_CONSTRUCTOR_Y = -7;
 
   private double radius;
 
@@ -14,29 +16,22 @@ final class Circle extends Form {
 
   Circle(double radius) {
 
-    super(DEFAULT_CONSTRUCTOR_X);
+    super(DEFAULT_CONSTRUCTOR_X, DEFAULT_CONSTRUCTOR_Y);
     this.radius = radius;
 
   }
 
-//  public double getRadius() {
-//    return this.radius;
-//  }
-//
-//  @Override
-//  public double getArea() {
-//    double area;
-//    area = Math.PI * Math.pow(this.radius, 2);
-//    return area;
-//  }
-//
-//  public void setRadius(double radius) {
-//    if (radius > 0) {
-//      this.radius = radius;
-//    } else {
-//      this.radius = 0;
-//    }
-//  }
+  double getRadius() {
+    return radius;
+  }
 
+  @Override
+  public String toString() {
+    return "Circle (radius=" + radius + ")";
+  }
+
+  String toStringForm() {
+    return super.toString();
+  }
 
 }

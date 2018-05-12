@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ef1f9070-f814-477d-b1c1-cf4f1104ec1b" name="Default" comment=" inheritance refactor, removed square">
       <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pedro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/abstraction/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/abstraction/C2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/abstraction/C3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/abstraction/C4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/object/abstraction/C2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/object/abstraction/C3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/object/abstraction/C4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/inheritance/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/inheritance/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/inheritance/Form.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/object/inheritance/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/object/inheritance/CircleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,41 +39,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CircleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/object/inheritance/CircleTest.java">
+      <file leaf-file-name="C3Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/object/abstraction/C3Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="360">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/object/inheritance/Form.java">
+      <file leaf-file-name="C4Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/object/abstraction/C4Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+            <state relative-caret-position="180">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/object/inheritance/Circle.java">
+      <file leaf-file-name="C2Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/object/abstraction/C2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="666">
+              <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
               <folding>
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,9 +105,23 @@
         <option value="$PROJECT_DIR$/src/object/identity/Book.java" />
         <option value="$PROJECT_DIR$/src/object/inheritance/Square.java" />
         <option value="$PROJECT_DIR$/test/object/inheritance/SquareTest.java" />
-        <option value="$PROJECT_DIR$/test/object/inheritance/CircleTest.java" />
-        <option value="$PROJECT_DIR$/src/object/inheritance/Circle.java" />
+        <option value="$PROJECT_DIR$/src/object/inheritance/C1.java" />
+        <option value="$PROJECT_DIR$/src/object/inheritance/C2.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/object/inheritance/Form.java" />
+        <option value="$PROJECT_DIR$/test/object/abstraction/CircleTest.java" />
+        <option value="$PROJECT_DIR$/test/object/abstraction/C1Test.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/C2.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/C3.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/C4.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/C1.java" />
+        <option value="$PROJECT_DIR$/src/object/inheritance/Circle.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/Form.java" />
+        <option value="$PROJECT_DIR$/src/object/abstraction/Circle.java" />
+        <option value="$PROJECT_DIR$/test/object/inheritance/CircleTest.java" />
+        <option value="$PROJECT_DIR$/test/object/abstraction/C4Test.java" />
+        <option value="$PROJECT_DIR$/test/object/abstraction/C2Test.java" />
+        <option value="$PROJECT_DIR$/test/object/abstraction/C3Test.java" />
       </list>
     </option>
   </component>
@@ -119,62 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-              <item name="identity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -202,6 +166,55 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,6 +223,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/object/abstraction" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Code/Java/PS/JUnit/junit-5-fundamentals/02/demos/m1/JUnit5Maven/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -217,11 +232,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="object.abstraction" />
       <recent name="object.identity" />
       <recent name="object.construction" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="object.abstraction" />
       <recent name="object.identity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="object.abstraction" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -239,20 +259,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Inheritance_CircleTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmic.controlflow.Main" />
-      <module name="Problems" />
+  <component name="RunManager" selected="JUnit.Abstraction_C1Test">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Abstraction_C1Test" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithmic.controlflow.*" />
+          <option name="PATTERN" value="object.abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="object.abstraction" />
+      <option name="MAIN_CLASS_NAME" value="object.abstraction.C2Test" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="Abtraction_CircleTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="object.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="object.abstraction" />
+      <option name="MAIN_CLASS_NAME" value="object.abstraction.CircleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="Construction_BookTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="Problems" />
@@ -362,17 +417,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Inheritance_CircleTest" />
       <item itemvalue="JUnit.Construction_BookTest" />
       <item itemvalue="JUnit.Identity_BookTest" />
+      <item itemvalue="JUnit.Abtraction_CircleTest" />
+      <item itemvalue="JUnit.Abstraction_C1Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Abstraction_C1Test" />
+        <item itemvalue="JUnit.Abtraction_CircleTest" />
         <item itemvalue="JUnit.Inheritance_CircleTest" />
         <item itemvalue="JUnit.Identity_BookTest" />
         <item itemvalue="JUnit.Construction_BookTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -408,39 +465,46 @@
       <option name="project" value="LOCAL" />
       <updated>1525276087073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" inheritance refactor, removed square">
+      <created>1525276103303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525276103303</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 32m 39s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 06m 37s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 33m 06s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 08m 40s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 34m 12s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 11m 38s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 35m 17s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 11m 59s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 36m 10s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 12m 23s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 37m 17s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 14m 40s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 37m 29s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 15m 29s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 44m 54s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 18m 19s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 44m 59s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 20m 24s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Inheritance_CircleTest - 2018.05.02 at 17h 47m 24s.xml">
-      <configuration name="Inheritance_CircleTest" configurationId="JUnit" />
+    <history-entry file="Abstraction_C1Test - 2018.05.03 at 12h 20m 33s.xml">
+      <configuration name="Abstraction_C1Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -449,20 +513,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32786885" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32968238" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32982022" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24984501" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -470,10 +531,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24984501" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32982022" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32786885" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -489,7 +553,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -497,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,9 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -565,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,13 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithmic/controlflow/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -651,13 +691,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithmic/controlflow/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -686,13 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/inheritance/ZeroOrNegativeRadiusException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/ZeroOrNegativeRadiusException.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -721,9 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,16 +759,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/inheritance/SquareTest.java" />
     <entry file="file://$PROJECT_DIR$/test/object/identity/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
@@ -751,43 +767,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Square.java">
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Square.java" />
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/C1.java" />
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/C2.java" />
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/CircleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Form.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="234">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/C3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/C1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/C2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/object/inheritance/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Circle.java">
+    <entry file="file://$PROJECT_DIR$/test/object/abstraction/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="270">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/object/inheritance/Form.java">
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/object/abstraction/C4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/abstraction/C2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/abstraction/C3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/object/abstraction/C4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

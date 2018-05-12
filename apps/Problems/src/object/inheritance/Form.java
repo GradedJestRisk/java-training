@@ -1,9 +1,9 @@
 package object.inheritance;
 
-abstract class Form {
+class Form {
 
-  static int DEFAULT_X = 8;
-  private static int DEFAULT_Y = 8;
+  static int DEFAULT_X = 3;
+  private static int DEFAULT_Y = -2;
 
   private final int x;
   private final int y;
@@ -15,21 +15,28 @@ abstract class Form {
     x = DEFAULT_X;
     y = DEFAULT_Y;
 
-    System.out.println(" Form() !");
+//    System.out.println(" Form() called ");
 
   }
 
-  Form(int x) {
+  Form(int x, int y) {
 
     this.x = x;
-    y = DEFAULT_Y;
+    this.y = y;
 
-    System.out.println(" Form(int x) !");
+//    System.out.println(" Form(int x, int y) called ");
 
   }
 
+  public String toString() {
+    return "Form (" + x + "," + y + ")";
+  }
 
   int getX() {
     return x;
+  }
+
+  int getY() {
+    return y;
   }
 }
