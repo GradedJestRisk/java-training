@@ -1,0 +1,8 @@
+object/abstraction/C3Test.class
+object/abstraction/C2Test.class
+object/construction/BookTest$WhenConstructedWithParameter.class
+object/inheritance/CircleTest.class
+object/construction/BookTest$WhenConstructedWithNoParameter.class
+object/construction/BookTest.class
+object/abstraction/C4Test.class
+object/identity/BookTest.class
