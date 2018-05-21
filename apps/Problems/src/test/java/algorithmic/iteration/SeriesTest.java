@@ -75,16 +75,15 @@ class SeriesTest {
     int sumStart, sumEnd;
     double expectedSumAverage, obtainedSumAverage;
 
-    sumStart = 1;
-    sumEnd = 4;
+    sumStart = 3;
+    sumEnd = 6;
 
     series = new Series(sumStart, sumEnd);
-    expectedSumAverage = (double) (1 + 2 + 3 + 4 ) / 4;
+    expectedSumAverage = (double) (3 + 4 + 5 + 6) / 4;
 
     obtainedSumAverage = series.averageSumAll();
 
     assertEquals(expectedSumAverage, obtainedSumAverage);
-
 
   }
 
@@ -120,7 +119,7 @@ class SeriesTest {
     sumEnd = 14;
 
     series = new Series(sumStart, sumEnd);
-    expectedSum = 7 + 14 ;
+    expectedSum = 7 + 14;
 
     obtainedSum = series.sumDivisible7UsingWhile();
 
@@ -140,8 +139,8 @@ class SeriesTest {
     sumEnd = 3;
 
     series = new Series(sumStart, sumEnd);
-    expectedSum = (1) + (1*2) + (1*2*3);
-
+//    expectedSum = (1) + (1*2) + (1*2*3) = 1 + 2 + 6 = 9
+    expectedSum = 9;
     obtainedSum = series.sumPowerUsingDo();
 
     assertEquals(expectedSum, obtainedSum);
