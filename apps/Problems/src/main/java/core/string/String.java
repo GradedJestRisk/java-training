@@ -27,4 +27,13 @@ public class String {
     return string.isEmpty();
   }
 
+  int compareTo(java.lang.String compared) {
+    return string.compareTo(compared);
+  }
+
+  Boolean equals(java.lang.String compared) {
+    return string.equals(compared);
+  }
+
+
 }

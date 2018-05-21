@@ -1,8 +1,11 @@
 package core.string;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 class StringTest {
@@ -11,15 +14,15 @@ class StringTest {
   void nullIsNotEmptyTest() {
 
     String nullString, emptyString;
-    Boolean expected, obtained;
+    Boolean expected, actual;
 
     nullString = new String(String.NULL_STRING);
     emptyString = new String(String.EMPTY_STRING);
 
     expected = Boolean.FALSE;
-    obtained = (nullString == emptyString);
+    actual = (nullString == emptyString);
 
-    assertEquals(expected, obtained);
+    assertEquals(expected, actual);
 
   }
 
@@ -27,48 +30,49 @@ class StringTest {
   void nullDoesNotEqualsEmptyTest() {
 
     String nullString, emptyString;
-    Boolean expected, obtained;
+    Boolean expected, actual;
 
     nullString = new String(String.NULL_STRING);
     emptyString = new String(String.EMPTY_STRING);
 
     expected = Boolean.FALSE;
-    obtained = (nullString.equals(emptyString));
+    actual = (nullString.equals(emptyString));
 
-    assertEquals(expected, obtained);
+    assertEquals(expected, actual);
 
   }
+
 
   @Test
   void whenEmptyThenIsEmptyTrueTest() {
 
     String emptyString;
-    Boolean expected, obtained;
+    Boolean expected, actual;
 
     emptyString = new String(String.EMPTY_STRING);
 
     expected = Boolean.TRUE;
 
     // Implement a test catching Exception
-    obtained = emptyString.isEmpty();
+    actual = emptyString.isEmpty();
 
-    assertEquals(expected, obtained);
+    assertEquals(expected, actual);
 
   }
 
   @Disabled
   @Test
-  void whenNullThenIsEmptyFalseTest() {
+  void whenNullThenIsEmptyThrowsNullPointerException() {
 
     String nullString;
-    Boolean expected, obtained;
+    Boolean expected, actual;
 
     nullString = new String(String.NULL_STRING);
-    obtained = nullString.isEmpty();
+    actual = nullString.isEmpty();
 
     expected = Boolean.FALSE;
 
-    assertEquals(expected, obtained);
+    assertEquals(expected, actual);
 
   }
 
@@ -76,14 +80,14 @@ class StringTest {
   void lengthGiveLengthTest() {
 
     String string;
-    int expectedLength, obtainedLength, def;
+    int expectedLength, actualLength, def;
 
     string = new String("Foo");
 
     expectedLength = 3;
-    obtainedLength = string.length();
+    actualLength = string.length();
 
-    assertEquals(expectedLength, obtainedLength);
+    assertEquals(expectedLength, actualLength);
 
   }
 
@@ -91,7 +95,7 @@ class StringTest {
   void valueOfGiveStringTest() {
 
     String string;
-    java.lang.String expectedValue, obtainedValue;
+    java.lang.String expectedValue, actualValue;
     int parameter;
 
     parameter = 3;
@@ -99,11 +103,122 @@ class StringTest {
     string = new String();
 
     expectedValue = "3";
-    obtainedValue = string.valueOf(parameter);
+    actualValue = string.valueOf(parameter);
 
-    assertEquals(expectedValue, obtainedValue);
+    assertEquals(expectedValue, actualValue);
 
   }
+
+  @Nested
+  @DisplayName("equals")
+  class equalsTest {
+
+    @Test
+    @DisplayName("When same, Then returns true")
+    void whenSameThenReturnTrue() {
+
+      String string;
+      java.lang.String firstTerm, secondTerm;
+      Boolean expected, actual;
+
+      firstTerm = "Foo";
+      secondTerm = "Foo";
+
+      string = new String(firstTerm);
+
+      actual = string.equals(secondTerm);
+
+      expected = Boolean.TRUE;
+
+      assertEquals(expected, actual);
+    }
+
+    @Test
+    @DisplayName("When different, Then returns true")
+    void whenDifferentThenReturnFalse() {
+
+      String string;
+      java.lang.String firstTerm, secondTerm;
+      Boolean expected, actual;
+
+      firstTerm = "Foo";
+      secondTerm = "foo";
+
+      string = new String(firstTerm);
+
+      actual = string.equals(secondTerm);
+
+      expected = Boolean.FALSE;
+
+      assertEquals(expected, actual);
+    }
+
+  }
+
+  @Nested
+  @DisplayName("compareTo")
+  class compareToTest {
+
+    @Test
+    @DisplayName("When compared to previous, Then returns positive")
+    void whenComparedToPreviousReturnsPositive() {
+
+      String string;
+      java.lang.String firstTerm, secondTerm;
+      int actual;
+
+      firstTerm = "Foo";
+      secondTerm = "Bar";
+
+      string = new String(firstTerm);
+
+      actual = string.compareTo(secondTerm);
+
+      assertTrue((actual > 0));
+
+    }
+
+    @Test
+    @DisplayName("When compared to same, Then returns zero")
+    void whenComparedToSameReturnsPositive() {
+
+      String string;
+      java.lang.String firstTerm, secondTerm;
+      int actual;
+
+      firstTerm = "Foo";
+      secondTerm = "Foo";
+
+      string = new String(firstTerm);
+
+      actual = string.compareTo(secondTerm);
+
+      assertTrue((actual == 0));
+
+    }
+
+    @Test
+    @DisplayName("When compared to next, Then returns negative")
+    void whenComparedToNextReturnsNegative() {
+
+      String string;
+      java.lang.String firstTerm, secondTerm;
+      int actual;
+
+      firstTerm = "Bar";
+      secondTerm = "Foo";
+
+      string = new String(firstTerm);
+
+      actual = string.compareTo(secondTerm);
+
+      assertTrue((actual < 0));
+
+    }
+
+
+  }
+
 
 
 }
