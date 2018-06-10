@@ -74,7 +74,7 @@ class Series {
 
     sumAllUsingDo();
 
-    sumAllAverage = sum / count;
+    sumAllAverage = (double) sum / count;
 
     return sumAllAverage;
 
