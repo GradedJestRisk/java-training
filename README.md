@@ -1,11 +1,5 @@
-# Java Training
+Want to learn Java and its ecosystem ? 
 
-## Overview
-Contains some documents and simple applications for training
-
-## Base rules
-No commit to master
-
-## TBD
-Add .gitignore
-Consider better solutions than spreadsheet
+You''l find here:
+- basic code snippets (TDD style); 
+- cheatsheets.
