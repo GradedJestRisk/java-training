@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<items>
+  <item type="editor" node="ViewNode" vertical="true">
+    <title>
+        <![CDATA[ERRORS]]>
+    </title>
+    <query>
+      <sql>
+        <![CDATA[SELECT
+          ATTRIBUTE, 
+          LINE || ':' ||POSITION "LINE:POSITION", 
+          TEXT
+        FROM
+            all_errors
+        WHERE 1=1
+            AND type   IN  ('PACKAGE','PACKAGE BODY')
+            AND owner  =   :OBJECT_OWNER
+            AND name   =   :OBJECT_NAME
+        ORDER BY
+            SEQUENCE ASC
+        ]]>
+      </sql>
+    </query>
+  </item>
+</items>
