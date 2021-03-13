@@ -1,0 +1,40 @@
+plugins {
+    // Apply the 'application' plugin to building a CLI on JVM (in short, build a JAR)
+    // Implicitly applies the plugins:
+    // - Java
+    // - Distribution
+    id 'application'
+}
+
+// Optional as implicitly applied before by plugins/id
+// Apply plugin: 'java'
+
+// Pin down JDK version
+sourceCompatibility = 15.0
+targetCompatibility = 15.0
+
+repositories {
+    // Use mavenCentral for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+
+}
+
+application {
+    // Class to call on application startup
+    mainClass = 'HelloGradle.App'
+    applicationDefaultJvmArgs = ['-Dname=foo']
+}
+
+task wrapper(type: Wrapper){
+    gradleVersion = '6.8.3'
+}
+
+test {
+    useJUnitPlatform()
+}
