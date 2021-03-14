@@ -13,6 +13,6 @@ public class GreeterTest {
         String greet = greeter.greet(name);
 
         // then
-        assertEquals("Hello, bar!", greet);
+        assertEquals("Hello, bear!", greet);
     }
 }
