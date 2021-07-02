@@ -1,0 +1,115 @@
+//import nu.studer.gradle.jooq.JooqEdition
+
+plugins {
+//    id 'nu.studer.jooq' version '5.2.1'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+//    jooqGenerator 'org.postgresql:postgresql:42.2.22'
+
+    // Use JUnit Jupiter API for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+
+    // Use JUnit Jupiter Engine for testing.
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    // This dependency is used by the application.
+    implementation 'com.google.guava:guava:29.0-jre'
+
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.22'
+    implementation group: 'org.jooq', name: 'jooq', version: '3.14.11'
+    implementation group: 'org.jooq', name: 'jooq-meta', version: '3.14.11'
+    implementation group: 'org.jooq', name: 'jooq-codegen', version: '3.14.11'
+}
+
+//application {
+//    // Define the main class for the application.
+//    mainClass = 'hello.jooq.App'
+//}
+
+tasks.named('test') {
+    // Use junit platform for unit tests.
+    useJUnitPlatform()
+}
+
+//
+//jooq {
+//    version = '3.14.11'
+//    edition = JooqEdition.OSS
+//
+//    configurations {
+//        main {
+//            generationTool {
+//                logging = org.jooq.meta.jaxb.Logging.WARN
+//                jdbc {
+//                    driver = 'org.postgresql.Driver'
+//                    url = 'jdbc:postgresql://localhost/database'
+//                    user = 'user'
+//                    password = 'password'
+//                    schema = 'public'
+//                    properties {
+//                        property {
+//                            key = 'PAGE_SIZE'
+//                            value = 2048
+//                        }
+//                    }
+//                }
+//                generator {
+//                    name = 'org.jooq.codegen.DefaultGenerator'
+//                    database {
+//                        name = 'org.jooq.meta.postgres.PostgresDatabase'
+//                    }
+//                    generate {
+//                        deprecated = false
+//                        records = false
+//                        immutablePojos = false
+//                        fluentSetters = false
+//                    }
+//                    target {
+//                        packageName = 'test.jooq'
+//                        directory = 'src/main/java'
+//                    }
+//                    strategy.name = "org.jooq.codegen.DefaultGeneratorStrategy"
+//                }
+//            }
+//        }
+//    }
+//}
+
+
+//buildscript {
+//    repositories {
+//        mavenLocal()
+//        mavenCentral()
+//    }
+//
+//    dependencies {
+//        classpath 'org.jooq:jooq-codegen:3.14.11'
+//        classpath 'org.postgresql:postgresql:42.2.22'
+//    }
+//}
+////
+//import org.jooq.codegen.GenerationTool
+//import org.jooq.meta.jaxb.*
+//
+//GenerationTool.generate(new Configuration()
+//        .withJdbc(new Jdbc()
+//                .withDriver('org.postgresql.Driver')
+//                .withUrl('jdbc:postgresql://localhost/database')
+//                .withSchema('public')
+//                .withUser('user')
+//                .withPassword('password'))
+//        .withGenerator(new Generator()
+//                .withDatabase(new Database())
+//                .withGenerate(new Generate()
+//                        .withPojos(true)
+//                        .withDaos(true))
+//                .withTarget(new Target()
+//                        .withPackageName('hello.jooq.schema')
+//                        .withDirectory('.'))))
