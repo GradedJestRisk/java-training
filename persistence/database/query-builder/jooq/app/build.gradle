@@ -3,6 +3,7 @@
 plugins {
 //    id 'nu.studer.jooq' version '5.2.1'
     id 'java'
+    id 'application'
 }
 
 repositories {
@@ -28,10 +29,9 @@ dependencies {
     implementation group: 'org.jooq', name: 'jooq-codegen', version: '3.14.11'
 }
 
-//application {
-//    // Define the main class for the application.
-//    mainClass = 'hello.jooq.App'
-//}
+application {
+    mainClass = 'hello.jooq.Main'
+}
 
 tasks.named('test') {
     // Use junit platform for unit tests.
