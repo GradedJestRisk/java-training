@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
 
+//    https://www.baeldung.com/java-comparator-comparable
     public class Player implements Comparable<Player> {
         private int ranking;
         private String name;
