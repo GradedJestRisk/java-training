@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export APPLICATION_NAME=hello-world
+export APPLICATION_NAME=hello-world-java-gardle
 
 export VERSION=latest
 export COMPILE_IMAGE=gradle:8-jdk21-alpine
