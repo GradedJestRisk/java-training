@@ -1,34 +1,19 @@
-package basics.test;
-
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
+package basics.test.JUnit;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+
 @DisplayName("Junit")
-public class Junit {
+public class Parameterized {
 
   @Nested
-  @DisplayName("Nested test")
-  class nested {
-
-    @Nested
-    @DisplayName("Using display name")
-    class display {
-      @Test
-      @DisplayName("For test")
-      void test() {
-        assertThat(true).isEqualTo(true);
-      }
-    }
-  }
-
-  @Nested
-  @DisplayName("Parameterized test")
-  class Parameterized {
+  @DisplayName("CSV")
+  class Csv {
 
     // https://mikemybytes.com/2021/10/19/parameterize-like-a-pro-with-junit-5-csvsource/
 
