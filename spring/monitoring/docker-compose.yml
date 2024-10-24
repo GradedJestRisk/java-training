@@ -1,0 +1,10 @@
+services:
+    monitoring:
+      image: spring-monitoring
+      ports:
+        - "${SPRING_HEALTHCHECK_PORT}:${SPRING_HEALTHCHECK_PORT}"
+      healthcheck:
+        test: sh -c "wget -q -O- http://localhost:${SPRING_HEALTHCHECK_PORT}/monitoring/health"
+        interval: 2s
+        timeout: 1s
+        retries: 10

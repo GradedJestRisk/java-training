@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# read application name from settings.gradle
+#TMP=$(awk -v FS="rootProject.name = " 'NF>1{print $2}' settings.gradle)
+#APPLICATION_NAME="${TMP:1:-1}"
+#export APPLICATION_NAME
+
 export APPLICATION_NAME=hello-world-java-gardle
 
 export VERSION=latest
