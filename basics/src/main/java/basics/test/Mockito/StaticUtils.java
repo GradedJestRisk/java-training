@@ -1,4 +1,4 @@
-package basics.mockito;
+package basics.test.Mockito;
 
 import java.util.List;
 import java.util.stream.Collectors;

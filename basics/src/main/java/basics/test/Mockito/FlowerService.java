@@ -1,10 +1,6 @@
-package basics.mockito;
+package basics.test.Mockito;
 
 import java.util.List;
-
-enum Flower {
-    ROSE, DAISY
-}
 
 public class FlowerService {
 

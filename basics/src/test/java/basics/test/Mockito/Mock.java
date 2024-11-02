@@ -1,10 +1,9 @@
-package basics.mockito;
+package basics.test.Mockito;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;
-import org.mockito.Mockito;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,8 +16,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 
-@DisplayName("Mockito")
-public class MockitoTest {
+@DisplayName("Mock")
+public class Mock {
 
     @DisplayName("Mock")
     @Nested
@@ -35,7 +34,7 @@ public class MockitoTest {
 
 //            https://www.baeldung.com/mockito-mock-static-methods
 
-                try (MockedStatic<StaticUtils> utilities = Mockito.mockStatic(StaticUtils.class)) {
+                try (MockedStatic<StaticUtils> utilities = org.mockito.Mockito.mockStatic(StaticUtils.class)) {
                     utilities.when(StaticUtils::name).thenReturn("Eugen");
                     assertThat(StaticUtils.name()).isEqualTo("Eugen");
                 }
@@ -49,7 +48,7 @@ public class MockitoTest {
             void givenStaticMethodWithArgs_whenMocked_thenReturnsMockSuccessfully() {
                 assertThat(StaticUtils.range(2, 6)).containsExactly(2, 3, 4, 5);
 
-                try (MockedStatic<StaticUtils> utilities = Mockito.mockStatic(StaticUtils.class)) {
+                try (MockedStatic<StaticUtils> utilities = org.mockito.Mockito.mockStatic(StaticUtils.class)) {
                     utilities.when(() -> StaticUtils.range(2, 6))
                             .thenReturn(Arrays.asList(10, 11, 12));
 
