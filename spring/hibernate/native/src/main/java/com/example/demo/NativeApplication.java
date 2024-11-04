@@ -20,18 +20,17 @@ public class NativeApplication {
 	}
 
 //	https://spring.io/guides/gs/spring-boot
-	@Bean
-	public CommandLineRunner commandLineRunner() {
-		return args -> {
-
-			System.out.println("Hello, world!");
-			nativeQuerySelectJson();
-			nativeQuerySearchJson_JSON_PATH_QUERY();
-			nativeQuerySearchJson_REGEX_TILDE();
-//			query();
-
-		};
-	}
+//	@Bean
+//	public CommandLineRunner commandLineRunner() {
+//		return args -> {
+//
+//			System.out.println("Hello, world!");
+//			nativeQuerySelectJson();
+//			nativeQuerySearchJson_JSON_PATH_QUERY();
+//			nativeQuerySearchJson_REGEX_TILDE();
+//
+//		};
+//	}
 
 	private void nativeQuerySelectJson(){
 		String query = "SELECT id, content::TEXT FROM people";
@@ -60,18 +59,6 @@ public class NativeApplication {
 
 		for (Object[] person : people) {
 			System.out.println("id=" + person[0] + ", name= " + person[1]);
-		}
-	}
-
-
-	// need an entity
-	private void hibernateQuery(){
-		String query = "SELECT id FROM people";
-		Query nativeQuery = entityManager.createQuery(query);
-		List<Object[]> people = nativeQuery.getResultList();
-
-		for (Object[] person : people) {
-			System.out.println("Person " + person[0] + " " + person[1]);
 		}
 	}
 

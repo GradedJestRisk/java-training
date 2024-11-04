@@ -5,3 +5,13 @@ spring:
       url: jdbc:postgresql://localhost:5432/postgres
       username: postgres
       password: password123
+    jpa:
+      show-sql: true
+      properties:
+        hibernate:
+        format_sql: true
+#logging:
+#  level:
+#    org:
+#    hibernate:
+#      sql: debug

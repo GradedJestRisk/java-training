@@ -8,15 +8,14 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class PeopleRepository {
+public class AnimalRepository {
 
     @Autowired
     private EntityManager entityManager;
 
-    public List<Object[]> people (){
-        String query = "SELECT id, content::TEXT FROM people";
-        Query nativeQuery = entityManager.createNativeQuery(query);
-        return nativeQuery.getResultList();
+    public List<Object[]> animals (){
+        String querySource = "SELECT id, content FROM Animal";
+        Query query = entityManager.createQuery(querySource);
+        return query.getResultList();
     }
-
 }

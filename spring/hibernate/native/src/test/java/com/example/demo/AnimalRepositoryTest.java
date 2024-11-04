@@ -12,32 +12,34 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-class PeopleRepositoryTest {
+class AnimalRepositoryTest {
 
     @Autowired
-    private PeopleRepository peopleRepository;
+    private AnimalRepository animalRepository;
 
-    @DisplayName("Structured Query Language (SQL)")
+    @DisplayName("Hibernate Query Language (HQL) - JPQL")
     @Nested
-    class SQL {
+    class HQL {
 
-        @DisplayName("#createNativeQuery")
+        @DisplayName("#createQuery")
         @Nested
-        class CreateNativeQuery {
+        class CreateQuery {
 
+            @DisplayName("Use Entity name Animal, not table name animal")
             @Test
             void test() {
 
                 // given
-                // peopleRepository is injected
+                // animalRepository is injected
 
                 // when
-                List<Object[]> people = peopleRepository.people();
+                List<Object[]> animals = animalRepository.animals();
 
                 // then
-                assertThat(people).hasSize(2);
+                assertThat(animals).hasSize(2);
             }
         }
-
     }
+
+
 }
