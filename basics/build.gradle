@@ -13,12 +13,14 @@ repositories {
 
 dependencies {
     implementation "org.projectlombok:lombok:1.18.34"
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.19.0")
+    // serialize LocalDate
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.0")
     annotationProcessor "org.projectlombok:lombok:1.18.34"
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     testImplementation("org.mockito:mockito-inline:5.2.0")
     testImplementation("org.assertj:assertj-core:3.25.1")
-
 }
 
 java {
