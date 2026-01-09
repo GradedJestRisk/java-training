@@ -11,5 +11,6 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting()); //NOPMD - suppressed SystemPrintln - suppress violation for current line
+        System.out.println("Hello, world !");
     }
 }
