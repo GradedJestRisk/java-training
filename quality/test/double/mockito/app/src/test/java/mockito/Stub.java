@@ -1,4 +1,4 @@
-package basics.test.double.Mockito;
+package mockito;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
