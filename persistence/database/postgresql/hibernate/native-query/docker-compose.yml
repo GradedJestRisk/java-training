@@ -8,7 +8,7 @@
 
 services:
   postgresql:
-    image: docker.io/bitnami/postgresql:17
+    image: docker.io/soldevelo/postgresql:17
     shm_size: 2GB
     ports:
       - '5432:5432'
